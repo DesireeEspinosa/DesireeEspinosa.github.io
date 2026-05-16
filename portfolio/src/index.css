@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Space+Mono&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+    /* Main colors */
+    --color-bg: #08060a;
+    --color-bg2: #100e08;
+    --color-film: #1a1408;
+    --color-neon: #e8820a;
+    --color-cream: #f0e6c8;
+    --color-muted: #817056;
+    --color-purple: #c0305a;
+    --color-rose: #e84060;
+    --color-cyan: #2e8c6a;
+
+    /* Project accents */
+    --color-accent-dermai: #7a9eb5;
+    --color-accent-fauna: #4a7c6f;
+    --color-accent-snapscan: #9b6b7a;
+    --color-accent-cicata: #8a6a4a;
+    --color-accent-tanuki: #6b8a6a;
+    --color-accent-healthsync: #b05070;
+    --color-accent-codecoaster: #5a7a9a;
+    --color-accent-parkinTec: #7a6a5a;
+
+    /* Fonts */
+    --font-display: "Cormorant Garamond", Georgia, serif;
+    --font-mono: "Space Mono", monospace;
+
+    --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    --animate-ticker: ticker 25s linear infinite;
+
+    @keyframes pulse {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.3;
+        }
+    }
+    @keyframes ticker {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-50%);
+        }
+    }
+}
+
+@utility animate-ticker {
+    animation: ticker 25s linear infinite;
+}
+
+@utility glow-neon {
+    text-shadow: 0 0 20px rgba(232, 130, 10, 0.5);
+}
+
+@utility glow-neon-sm {
+    text-shadow: 0 0 10px rgba(232, 130, 10, 0.3);
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-cream);
+}
