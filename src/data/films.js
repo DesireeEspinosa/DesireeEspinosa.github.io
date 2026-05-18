@@ -1,0 +1,38 @@
+export const films = [
+  {
+    title: "Chungking Express",
+    director: "Wong Kar-Wai",
+    year: "1994",
+    note: "The film this portfolio is inspired by.",
+    rating: "★★★★★",
+    accent: "--color-accent-tanuki",
+    letterboxd: "https://letterboxd.com/film/chungking-express/",
+  },
+  {
+    title: "Howl's Moving Castle",
+    director: "Hayao Miyazaki",
+    year: "2004",
+    note: "Miyazaki understood that softness is its own kind of strength.",
+    rating: "★★★★★",
+    accent: "--color-accent-cicata",
+    letterboxd: "https://letterboxd.com/film/howls-moving-castle/",
+  },
+  {
+    title: "Everything Everywhere All at Once",
+    director: "Daniels",
+    year: "2022",
+    note: "Chaos as tenderness. The most human multiverse. Changed how I see life.",
+    rating: "★★★★★",
+    accent: "--color-accent-codecoaster",
+    letterboxd: "https://letterboxd.com/film/everything-everywhere-all-at-once/",
+  },
+  {
+    title: "House of Hummingbird",
+    director: "Bora Kim",
+    year: "2018",
+    note: "Quiet devastation. Feels like a hug.",
+    rating: "★★★★★",
+    accent: "--color-accent-snapscan",
+    letterboxd: "https://letterboxd.com/film/house-of-hummingbird/",
+  },
+];
