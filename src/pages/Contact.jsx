@@ -55,7 +55,7 @@ export default function Contact() {
                         interesting problems.
                     </p>
 
-                    {/* Links directos */}
+                    {/* Links */}
                     <div className="flex flex-col gap-3 relative">
                         {[
                             {
@@ -86,7 +86,7 @@ export default function Contact() {
                     onSubmit={handleSubmit}
                     className="flex flex-col gap-4"
                 >
-                    {/* Nombre */}
+                    {/* Name */}
                     <div className="flex flex-col gap-1.5">
                         <label className="font-mono text-sm text-muted/60 tracking-widest">
                             — name
