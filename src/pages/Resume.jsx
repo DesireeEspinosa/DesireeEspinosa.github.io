@@ -19,7 +19,7 @@ export default function Resume() {
             </p>
             <div className="flex flex-col gap-3">
               <a
-                href="/DesireeEspinosa_resume.pdf"
+                href="/DesireeEspinosa_Resume.pdf"
                 download
                 className="flex items-center justify-between px-5 py-4 border border-neon/20 hover:border-neon/50 hover:bg-neon/3 transition-all duration-300 group w-full"
               >
